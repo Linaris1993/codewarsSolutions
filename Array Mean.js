@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55d277882e139d0b6000005d/train/javascript
+
+    function findAverage(nums) {
+        let res = nums.reduce((acc, curr) => acc + curr)
+        return res/nums.length
+    }
