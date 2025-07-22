@@ -11,15 +11,11 @@ https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
     }
 
 //another solution
+
 function abbrevName(name){
  let str2 = ''
- let res = name.split(' ').map((el, i) => {
-    if (i === 0) {
-    return el[0].toUpperCase()
-    }
-    else {
-     return el[0].toUpperCase()
-    }
+ let res = name.split(' ').map((el) => {   
+   return el[0].toUpperCase()
   }
  )
 res.join('')
